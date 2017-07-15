@@ -12,11 +12,11 @@ h1, h2 , h3, h4 , h5 ,h6
 }
 #lft
 {
-    margin-left:200px;  
+    margin-left:12.500em;  
 }
 .tm-container{
    max-width:100%;
-   margin:0 198px;
+   margin:0 12.375em;
    border:3px solid white;  
 }
 img{
@@ -33,25 +33,25 @@ img{
 }
 .nav{
     margin-top:2px;
-	width: 1200px;
-	height: 60px;
+	width: 75.000em;
+	height: 3.750em;
     z-index: 1;
     position: relative;
     margin: 0 auto;
 	opacity:0.95;
-	border-radius: 5px;
+	border-radius: 0.313em;
 }
 .nav ul li{
 	list-style: none;
-	width: 200px;
-	line-height: 60px;
+	width: 12.500em;
+	line-height: 3.750em;
 	position: relative;
 	opacity:0.95;
 	box-shadow: 0px 2px 5px 0px grey;
 	text-align: center;
 	float: left;
 	background: #484848;
-    border-radius: 5px;
+    border-radius: 0.313em;
 }
 .nav ul li ul{
 	position: absolute;
@@ -64,7 +64,7 @@ img{
 }
 .nav ul li a{
     font-family: 'Exo', sans-serif;
-    font-size: 20px; 
+    font-size: 1.250em; 
 	color: #fbfbfb;
 	width: 200px;
 	height: 58px;
@@ -91,17 +91,17 @@ img{
 }
 .fa-list.modify{
 	display: none;
-	font-size: 35px;
+	font-size: 1.875em;
 	position: absolute;
-	right: 30px;
-	top:60px;
+	right: 1.875em;
+	top:3.750em;
 	cursor: pointer;
 }
 .container{
-	width: 1000px;
-	height: 200px;
+	width: 62.500em;
+	height: 12.500em;
 	margin: 0 auto;
-	padding:20px 20px;
+	padding:1.250em 1.250em;
 }
 @media screen and (max-width: 480px){
 	header{
@@ -148,7 +148,7 @@ img{
 {
     background:black;
     opacity:0.8;
-    width: 1200px;
+    width: 75.000em;
 	height: auto;
     margin: 0 auto;
 	border-radius: 5px;
@@ -165,11 +165,11 @@ img{
     display:inline-block;
     width:30%;
     transform:translate(-50%, -50%);
-    width:240px;
-    height:400px;
+    width:15.000em;
+    height:25.000em;
     background:black;
     box-sizing:border-box;
-    padding:15px;
+    padding:0.938em;
     transition:.5s;
     opacity:0.8;
     overflow:hidden;
@@ -183,11 +183,11 @@ img{
     display:inline-block;
     width:30%;
     transform:translate(-50%, -50%);
-    width:240px;
-    height:400px;
+    width:15.000em;
+    height:25.000em;
     background:black;
     box-sizing:border-box;
-    padding:15px;
+    padding:0.938em;
     transition:.5s;
     opacity:0.8;
     overflow:hidden;
@@ -201,11 +201,11 @@ img{
     display:inline-block;
     width:30%;
     transform:translate(-50%, -50%);
-    width:240px;
-    height:400px;
+   width:15.000em;
+    height:25.000em;
     background:black;
     box-sizing:border-box;
-    padding:15px;
+    padding:0.938em;
     transition:.5s;
     opacity:0.8;
     overflow:hidden;
@@ -219,11 +219,11 @@ img{
     display:inline-block;
     width:30%;
     transform:translate(-50%, -50%);
-    width:240px;
-    height:400px;
+     width:15.000em;
+    height:25.000em;
     background:black;
     box-sizing:border-box;
-    padding:15px;
+    padding:0.938em;
     transition:.5s;
     opacity:0.8;
     overflow:hidden;
@@ -237,11 +237,11 @@ img{
     display:inline-block;
     width:30%;
     transform:translate(-50%, -50%);
-    width:240px;
-    height:400px;
+    width:15.000em;
+    height:25.000em;
     background:black;
     box-sizing:border-box;
-    padding:15px;
+    padding:0.938em;
     transition:.5s;
     opacity:0.8;
     overflow:hidden;
@@ -335,13 +335,15 @@ img{
 }
 .foot
 {
-    font-size: 22px;
+    font-size: 1.375em;
     background: rgba(0,0,0,0.5);
     position:fixed;
     text-align: center;
     bottom:0;
     width:100%;
-    padding:10px;
+	font-family: 'Lobster', cursive;
+	font-family: 'Dancing Script', cursive;
+    padding:0.4em;
     color: aqua;
 }
  #cent
@@ -352,6 +354,12 @@ img{
     display:none;
     background:#55aa7f;
 }
+#lit
+{
+	font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+}
+
 #menu > li > ul li > ul{   /* Third Level & beyond */
     display:none;
     background:#55aa7f;
